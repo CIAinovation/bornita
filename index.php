@@ -73,117 +73,40 @@
     <div align="center">
         <h5 class="selected"><a href="">NOVEDADES</a></h5>    
     </div>
-
-    <!-- <div class="grid">
-          <div class="grid-sizer"></div>
-          <div class="grid-item">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" />
-          </div>
-          <div class="grid-item">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" />
-          </div>
-          <div class="grid-item">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" />
-          </div>
-          <div class="grid-item">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" />
-          </div>
-          <div class="grid-item">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" />
-          </div>
-          <div class="grid-item">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-          </div>
-          <div class="grid-item">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg" />
-          </div>
-          <div class="grid-item">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg" />
-          </div>
-          <div class="grid-item">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" />
-          </div>
-          <div class="grid-item">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" />
-          </div>
-          <div class="grid-item grid-item--width2"></div>
-        </div> -->
-        <h1>Masonry - fitWidth</h1>
-
-<div class="grid">
-  <div class="grid-item">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" />
-  </div>
-  <div class="grid-item grid-item--height2">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg" />
-  </div>
-  <div class="grid-item grid-item--height3">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item grid-item--height2">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" />
-  </div>
-  <div class="grid-item">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item grid-item--height2">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item grid-item--height3">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item grid-item--height2">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item grid-item--height2">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item grid-item--height2">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item grid-item--height3">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item grid-item--height2">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-  <div class="grid-item grid-item--height2">
-      <img class="responsive-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" />
-  </div>
-</div>
+    <div class="grid">
+      <div class="grid-item">
+          <img class="responsive-img" src="img/home/grid/328_455.jpg" />
+      </div>
+      <div class="grid-item grid-item--height2">
+          <img class="responsive-img" src="img/home/grid/328_338.jpg" />
+      </div>
+      <div class="grid-item grid-item--height3">
+          <img class="responsive-img" src="img/home/grid/328_220.jpg" />
+      </div>
+      <div class="grid-item grid-item--height3">
+          <img class="responsive-img" src="img/home/grid/328_220.jpg" />
+      </div>
+       <div class="grid-item grid-item--height3">
+          <img class="responsive-img" src="img/home/grid/328_220.jpg" />
+      </div>
+      <div class="grid-item">
+          <img class="responsive-img" src="img/home/grid/328_455.jpg" />
+      </div>
+      <div class="grid-item grid-item--height2">
+          <img class="responsive-img" src="img/home/grid/328_338.jpg" />
+      </div>
+      <div class="grid-item grid-item--height3">
+          <img class="responsive-img" src="img/home/grid/328_220.jpg" />
+      </div>
+      <div class="grid-item grid-item--height3">
+          <img class="responsive-img" src="img/home/grid/328_220.jpg" />
+      </div>
+  
+      </div>
 
     </div>
 </div>
+<br><br>
 <div class="">
     <div class="section light-blue lighten-2">
 
@@ -245,8 +168,71 @@
         <br>
     </div>
 </div>
-<br>
 
+<!--   Comentarios   -->
+<div class="">
+    <div class="section white">
+
+        <!--   Icon Section   -->
+        <div align="center">
+            <h5 class="selected"><a href="">OPINIONES</a></h5>    
+        </div>
+        <div class="row">
+            <div class="col s12 m6">             
+                <div class="row">
+                    <div class="col s6 right-align white-text">
+                       <i class="fa fa-check-square-o fa-5x" ></i>
+                   </div>
+                   <div class="left-align col s6">
+                       <br>
+                       <h5 class=" white-text">CALIDAD</h5>
+                   </div>
+               </div>
+            </div>
+
+            <div class="col s12 m6">             
+                <div class="row">
+                    <div class="col s6 right-align white-text">
+                        <i class="fa fa-heart-o  fa-5x" ></i>
+                   </div>
+                   <div class="left-align col s6">
+                       <br>
+                       <h5 class=" white-text">PASION</h5>
+                   </div>
+               </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col s12 m6">             
+                <div class="row">
+                    <div class="col s6 right-align white-text">
+                       <i class="fa fa-handshake-o fa-5x" ></i>
+                   </div>
+                   <div class="left-align col s6">
+                       <br>
+                       <h5 class=" white-text">HONRADEZ</h5>
+                   </div>
+               </div>
+            </div>
+
+            <div class="col s12 m6">             
+                <div class="row">
+                    <div class="col s6 right-align white-text">
+                      <i class="fa fa-lightbulb-o fa-5x" ></i>
+                   </div>
+                   <div class="left-align col s6">
+                       <br>
+                       <h5 class=" white-text">CREATIVIDAD</h5>
+                   </div>
+               </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+
+<br>
 
 <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
