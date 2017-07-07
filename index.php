@@ -44,11 +44,11 @@
   </nav>
 
 <!---     Slider      -->
-<div class="slider">
+<div class="slider" align="left">
     <ul class="slides">
       <li>
-        <img src="http://lorempixel.com/1230/547/nature/6"> <!-- random image -->
-        <div class="caption left-align">
+        <img src="img/home/slider/heroimage@2xBornita.png"> <!-- random image -->
+        <div class="caption " align="left">
           <h1>Joyeria <br>Artesanal</h1>
         </div>
       </li>
@@ -259,7 +259,7 @@
             </div>
         </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="img/home/parallax/Santa clara del cobre@2x.png" alt="Unsplashed background img 2"></div>
 </div>
 
 <div class="container">
