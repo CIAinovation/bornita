@@ -19,7 +19,12 @@ $('.grid').masonry({
   isFitWidth: true
 });
 
-//Google Map
+
+
+});
+
+jQuery(function($) {
+	//Google Map
 	var latitude = $('#google-map').data('latitude')
 	var longitude = $('#google-map').data('longitude')
 	function initialize_map() {
@@ -43,5 +48,4 @@ $('.grid').masonry({
 		});
 	}
 	google.maps.event.addDomListener(window, 'load', initialize_map);
-	
-});
+});	
