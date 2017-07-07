@@ -22,7 +22,7 @@
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li class="selected"><a class="" href="sass.html">Nosotros</a></li>
-        <li ><a class="" href="badges.html">Joyeria</a></li>
+        <li ><a class="" href="src/jewelry.php">Joyeria</a></li>
         <li><a class="" href="collapsible.html">Hogar</a></li>
         <li><a class="" href="collapsible.html">Tu diseño</a></li>
         <li><a class="" href="collapsible.html">Unete</a></li>
@@ -32,7 +32,7 @@
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a class="" href="sass.html"><b>Nosotros</b></a></li>
-        <li><a class="" href="badges.html">Joyeria</a></li>
+        <li><a class="" href="src/jewelry.php">Joyeria</a></li>
         <li><a class="" href="collapsible.html">Hogar</a></li>
         <li><a class="" href="collapsible.html">Tu diseño</a></li>
         <li><a class="" href="collapsible.html">Unete</a></li>
@@ -170,65 +170,26 @@
 </div>
 
 <!--   Comentarios   -->
-<div class="">
+<div class="container">
     <div class="section white">
 
         <!--   Icon Section   -->
         <div align="center">
             <h5 class="selected"><a href="">OPINIONES</a></h5>    
         </div>
-        <div class="row">
-            <div class="col s12 m6">             
-                <div class="row">
-                    <div class="col s6 right-align white-text">
-                       <i class="fa fa-check-square-o fa-5x" ></i>
-                   </div>
-                   <div class="left-align col s6">
-                       <br>
-                       <h5 class=" white-text">CALIDAD</h5>
-                   </div>
-               </div>
+        <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="img/home/comentarios/mujer.jpeg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
             </div>
-
-            <div class="col s12 m6">             
-                <div class="row">
-                    <div class="col s6 right-align white-text">
-                        <i class="fa fa-heart-o  fa-5x" ></i>
-                   </div>
-                   <div class="left-align col s6">
-                       <br>
-                       <h5 class=" white-text">PASION</h5>
-                   </div>
-               </div>
+            <div class="col s10">
+                <blockquote>
+                  <span class="black-text">
+                    This is a square image. Add the "circle" class to it to make it appear circular.
+                  </span>
+                </blockquote>
+              
             </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col s12 m6">             
-                <div class="row">
-                    <div class="col s6 right-align white-text">
-                       <i class="fa fa-handshake-o fa-5x" ></i>
-                   </div>
-                   <div class="left-align col s6">
-                       <br>
-                       <h5 class=" white-text">HONRADEZ</h5>
-                   </div>
-               </div>
-            </div>
-
-            <div class="col s12 m6">             
-                <div class="row">
-                    <div class="col s6 right-align white-text">
-                      <i class="fa fa-lightbulb-o fa-5x" ></i>
-                   </div>
-                   <div class="left-align col s6">
-                       <br>
-                       <h5 class=" white-text">CREATIVIDAD</h5>
-                   </div>
-               </div>
-            </div>
-        </div>
-        <br>
+          </div>
     </div>
 </div>
 
@@ -271,9 +232,11 @@
             </div>
         </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
 </div>
-
+<div id="google-map" class="col-sm-12" data-latitude="19.7181" data-longitude="-101.1564"
+             data-wow-duration="1000ms" data-wow-delay="400ms">
+</div>
 <footer class="page-footer teal">
     <div class="container">
         <div class="row">
@@ -317,6 +280,7 @@
 <script src="materialize/js/init.js"></script>
 <script src="materialize/js/main.js"></script>
 <script src="materialize/js/masonry.pkgd.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
 
 </body>
 </html>
