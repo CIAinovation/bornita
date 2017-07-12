@@ -3280,6 +3280,12 @@ input[type=range] + .thumb {
   border-radius: 50%;
 }
 
+.circle-border {
+  border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 7px solid #46cbe3;
+}
 .center-block {
   display: block;
   margin-left: auto;

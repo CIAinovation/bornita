@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
@@ -21,7 +21,7 @@
       <a href="#" class="brand-logo">Logo</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li class="selected"><a class="" href="sass.html">Nosotros</a></li>
+        <li class="selected"><a class="" >Nosotros</a></li>
         <li ><a class="" href="src/jewelry.php">Joyeria</a></li>
         <li><a class="" href="collapsible.html">Hogar</a></li>
         <li><a class="" href="collapsible.html">Tu diseño</a></li>
@@ -71,7 +71,7 @@
 <div class="">
     <div class="">
     <div align="center">
-        <h5 class="selected"><a href="">NOVEDADES</a></h5>    
+        <h5 class="selected"><a >NOVEDADES</a></h5>    
     </div>
     <div class="grid">
       <div class="grid-item">
@@ -107,13 +107,13 @@
     </div>
 </div>
 <br><br>
-<div class="">
+<div class="" >
     <div class="section light-blue lighten-2">
 
         <!--   Icon Section   -->
         <div align="center">
-            <h5 class="selected-white"><a href="">VALORES</a></h5>  
-        </div><br>
+            <h5 class="selected-white"><a >VALORES</a></h5>  
+        </div><br><br><br>
         <div class="row">
             <div class="col s12 m6">             
                 <div class="row">
@@ -175,18 +175,23 @@
 
         <!--   Icon Section   -->
         <div align="center">
-            <h5 class="selected"><a href="">OPINIONES</a></h5>    
+            <h5 class="selected"><a >OPINIONES</a></h5><br><br><br> 
         </div>
         <div class="row valign-wrapper">
             <div class="col s2">
-              <img src="img/home/comentarios/mujer.jpeg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+              <img src="img/home/comentarios/mujer.jpeg" alt="" class="circle-border responsive-img"> <!-- notice the "circle" class -->
             </div>
             <div class="col s10">
-                <blockquote>
+                <img src="img/icono/“comilla izq@2x.png" width="50px" alt="">              
                   <span class="black-text">
-                    This is a square image. Add the "circle" class to it to make it appear circular.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </span>
-                </blockquote>
+                <img src="img/icono/“ comilla der@2x.png" width="50px" alt="">  
               
             </div>
           </div>
@@ -209,78 +214,126 @@
     <div class="parallax"><img src="img/home/parallax/Santa clara del cobre@2x.png" alt="Unsplashed background img 2"></div>
 </div>
 
-<div class="container">
-    <div class="section">
-
-        <div class="row">
-            <div class="col s12 center">
-                <h3><i class="mdi-content-send brown-text"></i></h3>
-                <h4>Contact Us</h4>
-                <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+<div>
+  <div align="center">
+    <h5 class="selected"><a >CONTACTO</a></h5><br><br><br> 
+  </div>
+  <div>
+      <div class="row">
+         <div class="col s12 m6">
+           <form action="" method="get" accept-charset="utf-8">
+             <div class="row">
+              <div class="input-field col s12">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">NOMBRE *</label>
+              </div>
             </div>
-        </div>
-
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">CORREO *</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">TELEFONO</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">ASUNTO *</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">MENSAJE *</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <a class="waves-effect  light-blue lighten-3 btn">ENVIAR</a>
+              </div>
+            </div>
+           </form>
+         </div>
+         <div class="col s12 m6">
+           <img src="img/home/contacto/contactoimage@2x.png" class="responsive-img" alt="">
+         </div>
+      </div>
+  </div>
+</div>
+<div class="row">
+    <div class="col s12">
+        <div id="google-map"></div>
+         <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('google-map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
     </div>
 </div>
-
-
-<div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-        <div class="container">
-            <div class="row center">
-                <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-            </div>
-        </div>
-    </div>
-    <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 3"></div>
-</div>
-<div id="google-map" class="col-sm-12" data-latitude="19.7181" data-longitude="-101.1564"
-             data-wow-duration="1000ms" data-wow-delay="400ms">
-</div>
-<footer class="page-footer teal">
+<footer class="page-footer grey lighten-4">
     <div class="container">
         <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Company Bio</h5>
-                <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-            </div>
             <div class="col l3 s12">
-                <h5 class="white-text">Settings</h5>
+                <h6 class="teal-text lighten-2-text">AYUDA</h6>
                 <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
-                    <li><a class="white-text" href="#!">Link 2</a></li>
-                    <li><a class="white-text" href="#!">Link 3</a></li>
-                    <li><a class="white-text" href="#!">Link 4</a></li>
+                    <li><a class="grey-text darken-4-text" href="#!">Terminos de uso</a></li>
+                    <li><a class="grey-text darken-4-text" href="#!">Preguntas frecuentes</a></li>
+                    <li><a class="grey-text darken-4-text" href="#!">¿QUIERES SER PROMOTOR?</a></li>
+                    
                 </ul>
             </div>
             <div class="col l3 s12">
-                <h5 class="white-text">Connect</h5>
+                <h6 class="teal-text lighten-2-text">CONTACTO</h6>
                 <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
-                    <li><a class="white-text" href="#!">Link 2</a></li>
-                    <li><a class="white-text" href="#!">Link 3</a></li>
-                    <li><a class="white-text" href="#!">Link 4</a></li>
+                    <li><a class="black-text" >Domicilio: </a><a class="grey-text darken-4-text">Centro #268</a></li>
+                    <li><a class="black-text" >Telefono: </a><a class="grey-text darken-4-text">4433231867</a></li>
+                    <li><a class="black-text" >Correo: </a><a class="grey-text darken-4-text">ventas@bornitac.com</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h6 class="teal-text lighten-2-text">QUIENES SOMOS</h6>
+                <ul>
+                    <li><a class="grey-text darken-4-text" href="#!">Somos</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <ul>
+                    <li><img src="img/icono/Bfacebook@2x.png" width="35px" alt="">&nbsp; &nbsp;<img src="img/icono/Btwitter@2x.png" width="35px" alt="">&nbsp; &nbsp;<img src="img/icono/Binstagram@2x.png" width="35px" alt=""></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="footer-copyright">
-        <div class="container">
-            Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        <div class="container" align="center">
+            <a class="brown-text text-lighten-3" >&copy; Copyright 2017. Todos los derechos reservados</a>
         </div>
     </div>
 </footer>
 
 
 <!--  Scripts-->
+ 
+
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="materialize/js/materialize.js"></script>
 <script src="materialize/js/init.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5Sjy68hWY2bsARn-jOE_uhGeYy7OYnxo&callback=initMap"
+  type="text/javascript"></script>
 <script src="materialize/js/main.js"></script>
 <script src="materialize/js/masonry.pkgd.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+
+<!-- <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.inview.min.js"></script> -->
+<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> -->
 
 </body>
 </html>
