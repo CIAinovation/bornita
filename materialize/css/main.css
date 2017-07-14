@@ -1,0 +1,209 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+
+/* --------- Grid de imagenes ---------------*/
+
+/*.grid {
+
+  background: #fff;
+
+}*/
+
+
+
+/* clear fix */
+
+/*.grid:after {
+
+  content: '';
+
+  display: block;
+
+  clear: both;
+
+}*/
+
+
+
+/* ---- .grid-item ---- */
+
+
+
+/*.grid-sizer,
+
+.grid-item {
+
+  width: 25%;
+
+  margin-bottom: 0px;
+
+}
+
+
+
+.grid-item {
+
+  float: left;
+
+}
+
+
+
+.grid-item img {
+
+  display: block;
+
+  max-width: 100%;
+
+}
+
+.grid-item--width2 { width: 40%; }*/
+
+
+
+* { box-sizing: border-box; }
+
+
+
+body { font-family: sans-serif; }
+
+
+
+/* ---- grid ---- */
+
+
+
+.grid {
+
+  background: #EEE;
+
+  /* center */
+
+  margin: 0 auto;
+
+}
+
+
+
+/* clearfix */
+
+.grid:after {
+
+  content: '';
+
+  display: block;
+
+  clear: both;
+
+}
+
+
+
+/* ---- grid-item ---- */
+
+
+
+.grid-item {
+
+  width: 328px;
+
+  height: 455px;
+
+  float: left;
+
+  /*background: #D26;*/
+
+    margin-bottom: 5px;
+
+  /*border: 2px solid #333;
+
+  border-color: hsla(0, 0%, 0%, 0.5);
+
+  border-radius: 5px;*/
+
+}
+
+
+
+.grid-item--height2 { height: 338px; }
+
+.grid-item--height3 { height: 220px; }
+
+
+
+
+
+/*------------ Boton Transparente*/
+
+
+
+.btn-start {
+
+  color: #fff;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  padding:14px 40px;
+
+  border: 1px solid #6e6d6c;
+
+  border-radius: 4px;
+
+  margin-top: 40px;
+
+}
+
+/*---------- Courusel ----------------*/
+#sync1 .item {
+  background: #0c83e7;
+  padding: 80px 0px;
+  margin: 5px;
+  color: #FFF;
+  border-radius: 3px;
+  text-align: center;
+}
+#sync2 .item {
+  background: #C9C9C9;
+  padding: 10px 0px;
+  margin: 5px;
+  color: #FFF;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+}
+#sync2 .item h1 {
+  font-size: 18px;
+}
+#sync2 .current .item {
+  background: #0c83e7;
+}
+.owl-theme .owl-nav {
+  /*default owl-theme theme reset .disabled:hover links */
+}
+.owl-theme .owl-nav [class*='owl-'] {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+}
+#sync1.owl-theme {
+  position: relative;
+}
+#sync1.owl-theme .owl-next,
+#sync1.owl-theme .owl-prev {
+  width: 22px;
+  height: 40px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+}
+#sync1.owl-theme .owl-prev {
+  left: 10px;
+}
+#sync1.owl-theme .owl-next {
+  right: 10px;
+}
