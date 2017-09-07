@@ -46,6 +46,14 @@
     </div>
   </nav>
 
+<!-- <div class="row">
+  <div class="responsive-img col s8 m8 pull-m4" style="position:fixed !important">
+    
+  </div>
+  <div class="col s12 offset-s6 push-s4" style="position:fixed !important">
+    <h2 class="black-text">Ejemplo</h2>
+  </div>
+</div> -->
 <div class="row">
       <div class="col s4 push-s8">
           <h2 class="black-text">Ejemplo</h2>
