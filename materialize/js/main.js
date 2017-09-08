@@ -38,39 +38,86 @@ $('.grid').masonry({
 
 });
 
-/*	//Google Map
-var latitude = $('#google-map').data('latitude')
-  var longitude = $('#google-map').data('longitude')
-  function initialize_map() {
-    var myLatlng = new google.maps.LatLng(latitude,longitude);
-    var mapOptions = {
-      zoom: 14,
-      scrollwheel: false,
-      center: myLatlng
-    };
-    var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
-    var contentString = '';
-    var infowindow = new google.maps.InfoWindow({
-      content: '<div class="map-content"><ul class="address">' + $('.address').html() + '</ul></div>'
-    });
-    var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map
-    });
-    google.maps.event.addListener(marker, 'click', function() {
-      infowindow.open(map,marker);
-    });
-  }
-  google.maps.event.addDomListener(window, 'load', initialize_map);*/
-/*function initMap() {
-        var map = new google.maps.Map(document.getElementById('google-map'), {
-            center: { lat: 34.397, lng: 150.644 },
-            scrollwheel: false,
-            zoom: 2
-        });
-    } // close fun*/
-
+     
 });	
+
+/* ----------- VALORES --------------- */
+
+$("#calidad").on({
+    mouseenter: function () {
+      $("#calidad").css({ color: '#2481ab' });
+      $("#calidadh5").css({ color: '#2481ab' });
+      $("#calidadp").css({ color: '#2481ab' });
+    },
+    mouseleave: function () {
+      $("#calidad").css({ color: '#fff' });
+      $("#calidadh5").css({ color: '#fff' });
+      $("#calidadp").css({ color: '#4fc3f7 ' });
+    }
+});
+
+$("#pasion").on({
+    mouseenter: function () {
+      $("#pasion").css({ color: '#2481ab' });
+      $("#pasionh5").css({ color: '#2481ab' });
+      $("#pasionp").css({ color: '#2481ab' });
+    },
+    mouseleave: function () {
+      $("#pasion").css({ color: '#fff' });
+      $("#pasionh5").css({ color: '#fff' });
+      $("#pasionp").css({ color: '#4fc3f7 ' });
+    }
+});
+
+$("#honradez").on({
+    mouseenter: function () {
+      $("#honradez").css({ color: '#2481ab' });
+      $("#honradezh5").css({ color: '#2481ab' });
+      $("#honradezp").css({ color: '#2481ab' });
+    },
+    mouseleave: function () {
+      $("#honradez").css({ color: '#fff' });
+      $("#honradezh5").css({ color: '#fff' });
+      $("#honradezp").css({ color: '#4fc3f7 ' });
+    }
+});
+
+$("#creatividad").on({
+    mouseenter: function () {
+      $("#creatividad").css({ color: '#2481ab' });
+      $("#creatividadh5").css({ color: '#2481ab' });
+      $("#creatividadp").css({ color: '#2481ab' });
+    },
+    mouseleave: function () {
+      $("#creatividad").css({ color: '#fff' });
+      $("#creatividadh5").css({ color: '#fff' });
+      $("#creatividadp").css({ color: '#4fc3f7 ' });
+    }
+});
+ var map;
+      function initMap() {
+        var latitude = $('#google-map').data('latitude')
+        var longitude = $('#google-map').data('longitude')
+        var myLatlng = new google.maps.LatLng(latitude,longitude);
+        var mapOptions = {
+            zoom: 14,
+            scrollwheel: false,
+            center: myLatlng
+          };
+        map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+        var contentString = '';
+        var infowindow = new google.maps.InfoWindow({
+          content: '<div class="map-content"><ul class="address">' + $('.address').html() + '</ul></div>'
+        });
+        var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map
+        });
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.open(map,marker);
+        });
+      }
+
 
 /*------------ Carousel -----------------*/
 /*$(document).ready(function() {
