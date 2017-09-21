@@ -1,162 +1,97 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
+/*************************
+********Mapa CSS*****
+**************************/
+#google-map {
+        height: 400px;
+        width: 100%;
+       }
 
-
-/* --------- Grid de imagenes ---------------*/
-
-/*.grid {
-
-  background: #fff;
-
-}*/
-
-
-
-/* clear fix */
-
-/*.grid:after {
-
-  content: '';
-
-  display: block;
-
-  clear: both;
-
-}*/
-
-
-
-/* ---- .grid-item ---- */
-
-
-
-/*.grid-sizer,
-
-.grid-item {
-
-  width: 25%;
-
-  margin-bottom: 0px;
-
-}
-
-
-
-.grid-item {
-
-  float: left;
-
-}
-
-
-
-.grid-item img {
-
-  display: block;
-
-  max-width: 100%;
-
-}
-
-.grid-item--width2 { width: 40%; }*/
-
-
-
+/*************************
+********Grid CSS*****
+**************************/
 * { box-sizing: border-box; }
-
-
-
 body { font-family: sans-serif; }
 
-
-
 /* ---- grid ---- */
-
-
-
 .grid {
-
-  background: #EEE;
-
+  background: #fff;
   /* center */
-
   margin: 0 auto;
-
 }
-
-
 
 /* clearfix */
-
 .grid:after {
-
   content: '';
-
   display: block;
-
   clear: both;
-
 }
-
-
 
 /* ---- grid-item ---- */
-
-
-
 .grid-item {
-
   width: 328px;
-
   height: 455px;
-
   float: left;
-
   /*background: #D26;*/
-
     margin-bottom: 5px;
-
   /*border: 2px solid #333;
-
   border-color: hsla(0, 0%, 0%, 0.5);
-
   border-radius: 5px;*/
-
 }
-
-
 
 .grid-item--height2 { height: 338px; }
-
 .grid-item--height3 { height: 220px; }
 
+/*************************
+******** Logo menu *****
+**************************/
+.logo-menu {
+    border: 0;
+    padding-left: 42px;
+    padding-top: 5px;
+    padding-bottom: 11px;
+  }
+/*************************
+********Boton Login CSS*****
+**************************/
 
-
-
-
-/*------------ Boton Transparente*/
-
-
-
-.btn-start {
-
-  color: #fff;
-
+.btn-login {
+  color: #8acada;
   font-size: 14px;
+  font-weight: 200;
+  padding:10px 20px;
+  border: 2px solid #8acada;
+  border-radius: 2px;
+  /*margin-top: 40px;*/
+  /*text-align: center;*/
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
 
-  font-weight: 600;
-
-  padding:14px 40px;
-
-  border: 1px solid #6e6d6c;
-
-  border-radius: 4px;
-
-  margin-top: 40px;
-
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+}
+.btn-login:hover {
+  background-color: #26a69a;
+  border: 2px solid #26a69a;
+  color: #fff;
 }
 
-/*---------- Courusel ----------------*/
+.a-nav:hover {
+  color: #26a69a;
+}
+
+/*************************
+********Carousel CSS*****
+**************************/
+
 #sync1 .item {
   background: #0c83e7;
   padding: 80px 0px;
@@ -206,4 +141,354 @@ body { font-family: sans-serif; }
 }
 #sync1.owl-theme .owl-next {
   right: 10px;
+}
+
+/*************************
+******** Grid Hover CSS*****
+**************************/
+
+#portfolio .container-fluid, 
+#portfolio .col-sm-3  {
+  overflow: hidden;
+  padding: 0;
+}
+
+#portfolio .folio-item {
+  position: relative;
+}
+
+#portfolio .overlay {
+  background-color: #000;
+  color: #09ae15;
+  left: 0;
+  right:0;
+  bottom:-100%;
+  height: 0;
+  position: absolute;
+  text-align: center;
+  opacity:0;  
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#portfolio .folio-item .overlay .circle a {
+    font-size: 15px;
+    color: #333;
+    height: 25px;
+    width: 25px;
+    line-height: 27px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 5px;
+  
+}
+
+#portfolio .folio-item .overlay .circle a i {
+list-style: none;
+padding: 0;
+margin: 0 4.8px;
+display: inline-block
+ 
+}
+
+.overlay .overlay-content {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay .overlay-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.overlay .folio-info {
+  opacity: 0;
+  margin-bottom: 75px;
+  margin-top: -75px;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.overlay .folio-info h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.overlay .folio-info h5 {
+  margin-top: 0;
+  color: #fff;
+}
+
+
+/*.folio-overview a.boton{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding:10px 20px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  margin-top: 40px;
+}*/
+.folio-overview a.boton{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  padding:10px 20px;
+  border: 2px solid #fa5400;
+  border-radius: 1px;
+  margin-top: 40px;
+  background-color: #fa5400;
+}
+.folio-overview a:hover {
+  color: #fff;
+  background-color: #fa5400;
+}
+
+/*.folio-overview a:hover {
+  color: #fff;
+  background-color: #8acada;
+}*/
+
+.folio-overview .folio-expand {
+  margin-top: -500px;
+  margin-left: -500px;
+}
+
+.folio-image, .folio-overview .folio-expand {
+  -webkit-transition: all 0.9s ease-in-out;
+  transition: all 0.9s ease-in-out;
+}
+
+#portfolio .folio-item:hover .folio-image {
+ /* -webkit-transform: scale(1.5) rotate(-15deg);
+  transform: scale(1.5) rotate(-15deg);*/
+}
+
+.folio-image img {
+  width: 100%;
+}
+
+#portfolio .folio-item:hover .overlay {
+  opacity: 0.8;
+  bottom: 0;
+  height: 100%;
+}
+
+#portfolio .folio-item:hover .folio-overview .folio-expand {
+  margin-top: 0;
+  margin-left:0;
+}
+
+#portfolio .folio-item:hover .overlay .folio-info {
+  opacity: 1;  
+  margin-bottom:0;
+  margin-top:0;
+}
+
+
+#single-portfolio {
+  padding: 90px 0;
+  background: #f5f5f5;
+  position: relative;
+}
+
+#single-portfolio img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#single-portfolio .close-folio-item {
+  position: absolute;
+  top: 30px;
+  font-size: 34px;
+  width: 34px;
+  height: 34px;
+  left: 50%;
+  color: #999;
+  margin-left: -17px;
+}
+
+/*************************
+******** Valores CSS*****
+**************************/
+#calidadp, #pasionp, #honradezp, #creatividadp{
+  color: #4fc3f7;
+}
+#calidadh5, #pasionh5, #honradezh5, #creatividadh5 {
+  color: #fff;
+}
+
+/*************************
+******** Fuentes Home *****
+**************************/
+
+@font-face {
+  font-family: 'Haettenschweiler';
+  src: local('Haettenschweiler'),
+       url(fuentes/Haettenschweiler/Haettenschweiler.ttf) format('ttf');
+}
+@font-face {
+  font-family: Montserrat-Bold; 
+  src: url(fuentes/Montserrat/Montserrat-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: Montserrat-SemiBold; 
+  src: url(fuentes/Montserrat/Montserrat-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: Montserrat-Regular; 
+  src: url(fuentes/Montserrat/Montserrat-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: Montserrat-Light; 
+  src: url(fuentes/Montserrat/Montserrat-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: Raleway-Bold; 
+  src: url(fuentes/Raleway/Raleway-Bold.ttf) format('truetype');
+}
+
+.Haettenschweiler {
+    font-family: 'Haettenschweiler';
+    font-size: 18px;
+    letter-spacing: 4.8px;   
+}
+.Haet {
+    font-family: 'Haettenschweiler'; 
+}
+
+.titulo-crea{
+  font-family: 'Montserrat-SemiBold',sans-serif; 
+  font-weight: bold; 
+  letter-spacing: 15px;
+}
+.foot-light{
+  font-family: 'Montserrat-Light';
+  font-weight: normal; 
+  font-size: 16;
+}
+.foot-SemiBold{
+  font-family: 'Montserrat-SemiBold';
+  font-weight: normal; 
+  font-size: 16;
+}
+
+/* Tamaño s */
+@media screen and (max-width: 600px){
+  .titulo-slider{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-weight: bold; 
+    letter-spacing: 10px;
+    font-size: 40px;
+  }
+  .titulo-guion{
+    font-family: 'Raleway-Bold', sans-serif;
+    font-weight: bold; 
+    letter-spacing: 8px;
+    font-size: 15px;
+  }
+  .titulo-crea{
+    font-family: 'Montserrat-SemiBold',sans-serif; 
+    font-weight: bold; 
+    letter-spacing: 7px;
+    font-size: 30px;
+  }
+  .texto-Regular{
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-weight: 500; 
+    font-size: 15px;
+  }
+}
+/* Tamaño m */
+@media screen and (max-width: 991px) and (min-width: 601px){
+  .titulo-slider{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-weight: bold; 
+    letter-spacing: 10px;
+    font-size: 75px;
+  }
+  .titulo-guion{
+    font-family: 'Raleway-Bold', sans-serif;
+    font-weight: bold; 
+    letter-spacing: 8px;
+    font-size: 20px;
+  }
+  .titulo-crea{
+    font-family: 'Montserrat-SemiBold',sans-serif; 
+    font-weight: bold; 
+    letter-spacing: 15px;
+  }
+  .texto-light{
+    font-family: 'Montserrat-Light', sans-serif;
+    font-weight: normal; 
+    font-size: 15px;
+  }
+  .texto-Regular{
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-weight: 500; 
+    font-size: 22px;
+  }
+}
+/* Tamaño l */
+@media screen and (max-width: 1199px) and (min-width: 992px){
+  .titulo-slider{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-weight: bold; 
+    letter-spacing: 10px;
+    font-size: 75px;
+  }
+  .titulo-guion{
+    font-family: 'Raleway-Bold', sans-serif;
+    font-weight: bold; 
+    letter-spacing: 8px;
+    font-size: 30px;
+  }
+  .titulo-crea{
+    font-family: 'Montserrat-SemiBold',sans-serif; 
+    font-weight: bold; 
+    letter-spacing: 15px;
+  }
+  .texto-light{
+    font-family: 'Montserrat-Light', sans-serif;
+    font-weight: normal; 
+    font-size: 22px;
+  }
+  .texto-Regular{
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-weight: 500; 
+    font-size: 22px;
+  }
+}
+/* Tamaño xl */
+@media screen and (min-width: 1200px){
+  .titulo-slider{
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-weight: bold; 
+    letter-spacing: 10px;
+    font-size: 75px;
+  }
+  .titulo-guion{
+    font-family: 'Raleway-Bold', sans-serif;
+    font-weight: bold; 
+    letter-spacing: 8px;
+    font-size: 30px;
+  }
+  .titulo-crea{
+    font-family: 'Montserrat-SemiBold',sans-serif; 
+    font-weight: bold; 
+    letter-spacing: 15px;
+  }
+  .texto-light{
+    font-family: 'Montserrat-Light', sans-serif;
+    font-weight: normal; 
+    font-size: 22px;
+  }
+  .texto-Regular{
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-weight: 500; 
+    font-size: 22px;
+  }
 }
