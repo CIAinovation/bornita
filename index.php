@@ -24,7 +24,6 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li class="selected"><a href="/index.php" class="" >Inicio</a></li>
         <li class=""><a class="" >Nosotros</a></li>
-        <li ><a class="" href="src/jewelry.php">Novedades</a></li>
         <li><a class="" href="src/joyeria.php">Joyeria</a></li>
         <li><a class="" href="src/muebles.php">Hogar</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
@@ -34,7 +33,6 @@
       <ul class="side-nav" id="mobile-demo">
         <li><a class="" href="/index.php"><b>Inicio</b></a></li>
         <li><a class="" href="sass.html"><b>Nosotros</b></a></li>
-        <li><a class="" href="src/jewelry.php">Novedades</a></li>
         <li><a class="" href="src/joyeria.php">Joyeria</a></li>
         <li><a class="" href="src/muebles.php">Hogar</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
@@ -556,7 +554,15 @@
             </div>
             <div class="col l3 s12">
                 <ul>
-                    <li><img src="img/icono/Bfacebook@2x.png" width="35px" alt="">&nbsp; &nbsp;<img src="img/icono/Btwitter@2x.png" width="35px" alt="">&nbsp; &nbsp;<img src="img/icono/Binstagram@2x.png" width="35px" alt=""></li>
+                    <li>
+                      <a href="https://www.facebook.com/Bornita.mx/">
+                        <img src="img/icono/Bfacebook@2x.png" width="35px" alt="">
+                      </a>
+                      &nbsp; &nbsp;<img src="img/icono/Btwitter@2x.png" width="35px" alt="">
+                      &nbsp; &nbsp;<a href="https://www.instagram.com/bornitamx">
+                        <img src="img/icono/Binstagram@2x.png" width="35px" alt="">
+                      </a>
+                    </li>
                 </ul>
             </div>
         </div>
