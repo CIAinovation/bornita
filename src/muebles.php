@@ -18,22 +18,22 @@
 <!--          Menu         -->
 <nav class="nav-extended white top-menu" id="top-menu">
     <div class="nav-wrapper " >
-      <a href="../index.php" class="brand-logo"><img src="img/home/contacto/logoMenu.png" class="logo-menu" alt="Logo Bornita"></a>
+      <a href="index.php" class="brand-logo"><img src="../img/home/contacto/logoMenu.png" class="logo-menu" alt="Logo Bornita"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="../index.php" class="" >Inicio</a></li>
-        <li class=""><a class="" >Nosotros</a></li>
-        <li><a class="" href="joyeria.php">Joyeria</a></li>
-        <li class="selected"><a class="" href="muebles.php">Hogar</a></li>
+        <li class=""><a class="" href="../index.php">Nosotros</a></li>
+        <li class="selected" ><a class="" href="joyeria.php">Joyeria</a></li>
+        <li><a class="" href="muebles.php">Muebles</a></li>
+        <li><a class="" href="#">Muebles</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
-        <li><a href="mobile.html" class="a-nav"><i class="material-icons">shopping_cart</i></a></li>
-        <li><a class="btn-login ">Login</a></li>
+        <li><a href="mobile.html"><i class="material-icons">shopping_cart</i></a></li>
+        <li><a class="waves-effect waves-light btn">Login</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a class="" href="/index.php"><b>Inicio</b></a></li>
-        <li><a class="" href="sass.html"><b>Nosotros</b></a></li>
-        <li><a class="" href="joyeria.php">Joyeria</a></li>
-        <li><a class="" href="muebles.php">Hogar</a></li>
+        <li><a class="" href="../index.php"><b>Nosotros</b></a></li>
+        <li class="selected"><a class="" href="joyeria.php">Joyeria</a></li>
+        <li><a class="" href="muebles.php">Muebles</a></li>
+        <li><a class="" href="#">Hohar</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
         <li><a class="" href="collapsible.html">Carrito</a></li>
         <li><a class="" href="collapsible.html">Login</a></li>
@@ -273,46 +273,31 @@
     <div class="container">
         <div class="row">
             <div class="col l3 s12">
-              <div class="row">
-                <div class="col m6 s12">
-                  <img src="img/home/contacto/logoFooter.png" alt="">
-                </div>
-                <div class="col m6 s12">
-                  <h6 class="teal-text lighten-2-text Haettenschweiler">AYUDA</h6>
-                  <ul>
-                      <li><a class="grey-text darken-4-text foot-light" href="#!">Términos de uso</a></li>
-                      <li><a class="grey-text darken-4-text foot-light" href="#!">Preguntas frecuentes</a></li>
-                      <li><a class="grey-text darken-4-text foot-light" href="#!">¿QUIERES SER PROMOTOR?</a></li>
-                      
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col l3 s12">
-                <h6 class="teal-text lighten-2-text Haettenschweiler">CONTACTO</h6>
-                <ul class="address">
-                    <li><a class="black-text foot-SemiBold" >Domicilio: </a><a class="grey-text darken-4-text foot-light">Centro #268</a></li>
-                    <li><a class="black-text foot-SemiBold" >Telefono: </a><a class="grey-text darken-4-text foot-light">4433231867</a></li>
-                    <li><a class="black-text foot-SemiBold" >Correo: </a><a class="grey-text darken-4-text foot-light">ventas@bornitac.com</a></li>
+                <h6 class="teal-text lighten-2-text">AYUDA</h6>
+                <ul>
+                    <li><a class="grey-text darken-4-text" href="#!">Terminos de uso</a></li>
+                    <li><a class="grey-text darken-4-text" href="#!">Preguntas frecuentes</a></li>
+                    <li><a class="grey-text darken-4-text" href="#!">¿QUIERES SER PROMOTOR?</a></li>
+                    
                 </ul>
             </div>
             <div class="col l3 s12">
-                <h6 class="teal-text lighten-2-text Haettenschweiler">QUIENES SOMOS</h6>
+                <h6 class="teal-text lighten-2-text">CONTACTO</h6>
                 <ul>
-                    <li><a class="grey-text darken-4-text foot-light" href="#!">En Bornita conectamos artesanos mexicanos con mercados de alto valor para beneficiar su economía y fomentar el comercio justo. Apoyamos a la preservación de las actividades artesanales de las comunidades con diseños innovadores que conservan la esencia de las técnicas tradicionales. </a></li>
+                    <li><a class="black-text" >Domicilio: </a><a class="grey-text darken-4-text">Centro #268</a></li>
+                    <li><a class="black-text" >Telefono: </a><a class="grey-text darken-4-text">4433231867</a></li>
+                    <li><a class="black-text" >Correo: </a><a class="grey-text darken-4-text">ventas@bornitac.com</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h6 class="teal-text lighten-2-text">QUIENES SOMOS</h6>
+                <ul>
+                    <li><a class="grey-text darken-4-text" href="#!">Somos</a></li>
                 </ul>
             </div>
             <div class="col l3 s12">
                 <ul>
-                    <li>
-                      <a href="https://www.facebook.com/Bornita.mx/">
-                        <img src="img/icono/Bfacebook@2x.png" width="35px" alt="">
-                      </a>
-                      &nbsp; &nbsp;<img src="img/icono/Btwitter@2x.png" width="35px" alt="">
-                      &nbsp; &nbsp;<a href="https://www.instagram.com/bornitamx">
-                        <img src="img/icono/Binstagram@2x.png" width="35px" alt="">
-                      </a>
-                    </li>
+                    <li><img src="../img/icono/Bfacebook@2x.png" width="35px" alt="">&nbsp; &nbsp;<img src="../img/icono/Btwitter@2x.png" width="35px" alt="">&nbsp; &nbsp;<img src="../img/icono/Binstagram@2x.png" width="35px" alt=""></li>
                 </ul>
             </div>
         </div>
