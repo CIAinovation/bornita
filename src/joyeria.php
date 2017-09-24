@@ -21,6 +21,7 @@
       <a href="index.php" class="brand-logo"><img src="../img/home/contacto/logoMenu.png" class="logo-menu" alt="Logo Bornita"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class=""><a class="" href="../index.php">Inicia</a></li>
         <li class=""><a class="" href="../index.php">Nosotros</a></li>
         <li class="selected" ><a class="" href="joyeria.php">Joyeria</a></li>
         <li><a class="" href="muebles.php">Muebles</a></li>
