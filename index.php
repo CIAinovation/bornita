@@ -22,28 +22,21 @@
       <a href="index.php" class="brand-logo"><img src="img/home/contacto/logoMenu.png" class="logo-menu" alt="Logo Bornita"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li class="selected"><a class="" >Nosotros</a></li>
-<<<<<<< HEAD
+        <li class="selected"><a href="/index.php" class="" >Inicio</a></li>
+        <li class=""><a class="" >Nosotros</a></li>
         <li ><a class="" href="src/jewelry.php">Novedades</a></li>
-        <li><a class="" href="collapsible.html">Joyeria</a></li>
-        <li><a class="" href="collapsible.html">Muebles</a></li>
+        <li><a class="" href="src/joyeria.php">Joyeria</a></li>
+        <li><a class="" href="src/muebles.php">Hogar</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
         <li><a href="mobile.html" class="a-nav"><i class="material-icons">shopping_cart</i></a></li>
         <li><a class="btn-login ">Login</a></li>
-=======
-        <li ><a class="" href="">Novedades</a></li>
-        <li><a class="" href="src/joyeria.php">Joyeria</a></li>
-        <li><a class="" href="src/jewelry.php">Muebles</a></li>
-        <li><a class="" href="collapsible.html">Contáctanos</a></li>
-        <li><a href="mobile.html" class="a-nav"><i class="material-icons">shopping_cart</i></a></li>
-        <li><a class="btn-login " href="vistas/login.php">Login</a></li>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
       </ul>
       <ul class="side-nav" id="mobile-demo">
+        <li><a class="" href="/index.php"><b>Inicio</b></a></li>
         <li><a class="" href="sass.html"><b>Nosotros</b></a></li>
         <li><a class="" href="src/jewelry.php">Novedades</a></li>
-        <li><a class="" href="collapsible.html">Joyeria</a></li>
-        <li><a class="" href="collapsible.html">Muebles</a></li>
+        <li><a class="" href="src/joyeria.php">Joyeria</a></li>
+        <li><a class="" href="src/muebles.php">Hogar</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
         <li><a class="" href="collapsible.html">Carrito</a></li>
         <li><a class="" href="collapsible.html">Login</a></li>
@@ -79,17 +72,14 @@
 <div class="" id="portfolio">
   <div class="container-fluid">
     <div align="center">
-<<<<<<< HEAD
       <h5 class="selected titulo-guion"><a>NOVEDADES</a></h5>   
-=======
-      <h5 class="selected titulo-guion"><a>NOVEDADES</a></h5>    
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
     </div>
     <div class="grid">
+      <!-- img grande -->
       <div class="folio-item">
           <div class="grid-item">
             <div class="folio-image">
-                <img class="responsive-img" src="img/home/grid/328_455.jpg" />
+                <img class="responsive-img" src="img/home/novedades/hongo-grd.jpg" />
             </div>
             <div class="overlay">
               <div align="right" class="circle">
@@ -102,11 +92,7 @@
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-<<<<<<< HEAD
                         data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
-=======
-                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
                       </span>
                   </div>
                 </div>
@@ -114,10 +100,11 @@
             </div>
           </div>
       </div>
+      <!-- img mediana -->
       <div class="folio-item">
           <div class="grid-item grid-item--height2">
             <div class="folio-image">
-                <img class="responsive-img" src="img/home/grid/328_338.jpg" />
+                <img class="responsive-img" src="img/home/novedades/mariposa-med.jpg" />
             </div>
             <div class="overlay">
               <div align="right" class="circle">
@@ -130,11 +117,7 @@
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-<<<<<<< HEAD
                         data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
-=======
-                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
                       </span>
                   </div>
                 </div>
@@ -142,10 +125,11 @@
             </div>
           </div>
       </div>
+      <!-- img chica -->
       <div class="folio-item">
           <div class="grid-item grid-item--height3">
             <div class="folio-image">
-                <img class="responsive-img" src="img/home/grid/328_220.jpg" />
+                <img class="responsive-img" src="img/home/novedades/flor-ch.jpg" />
             </div>
             <div class="overlay">
               <div align="right" class="circle">
@@ -158,11 +142,7 @@
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-<<<<<<< HEAD
                         data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
-=======
-                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
                       </span>
                   </div>
                 </div>
@@ -170,10 +150,11 @@
             </div>
           </div>
       </div>
+      <!-- img chica -->
       <div class="folio-item">
           <div class="grid-item grid-item--height3">
             <div class="folio-image">
-                <img class="responsive-img" src="img/home/grid/328_220.jpg" />
+                <img class="responsive-img" src="img/home/novedades/olla-ch.jpg" />
             </div>
             <div class="overlay">
               <div align="right" class="circle">
@@ -186,11 +167,7 @@
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-<<<<<<< HEAD
                         data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
-=======
-                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
                       </span>
                   </div>
                 </div>
@@ -198,10 +175,11 @@
             </div>
           </div>
       </div>
+      <!-- img chica -->
       <div class="folio-item">
           <div class="grid-item grid-item--height3">
             <div class="folio-image">
-                <img class="responsive-img" src="img/home/grid/328_220.jpg" />
+                <img class="responsive-img" src="img/home/novedades/plato-ch.jpg" />
             </div>
             <div class="overlay">
               <div align="right" class="circle">
@@ -214,11 +192,7 @@
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-<<<<<<< HEAD
                         data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
-=======
-                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
                       </span>
                   </div>
                 </div>
@@ -226,10 +200,11 @@
             </div>
           </div>
       </div>
+      <!-- img grande -->
       <div class="folio-item">
           <div class="grid-item">
             <div class="folio-image">
-                <img class="responsive-img" src="img/home/grid/328_455.jpg" />
+                <img class="responsive-img" src="img/home/novedades/collar-grd.jpg" />
             </div>
             <div class="overlay">
               <div align="right" class="circle">
@@ -242,11 +217,7 @@
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-<<<<<<< HEAD
                         data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
-=======
-                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
                       </span>
                   </div>
                 </div>
@@ -254,10 +225,11 @@
             </div>
           </div>
       </div>
+      <!-- img mediana -->
       <div class="folio-item">
           <div class="grid-item grid-item--height2">
             <div class="folio-image">
-                <img class="responsive-img" src="img/home/grid/328_338.jpg" />
+                <img class="responsive-img" src="img/home/novedades/aretes-med.jpg" />
             </div>
             <div class="overlay">
               <div align="right" class="circle">
@@ -270,11 +242,7 @@
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-<<<<<<< HEAD
                         data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
-=======
-                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
                       </span>
                   </div>
                 </div>
@@ -282,10 +250,11 @@
             </div>
           </div>
       </div>
+      <!-- img chica -->
       <div class="folio-item">
           <div class="grid-item grid-item--height3">
             <div class="folio-image">
-                <img class="responsive-img" src="img/home/grid/328_220.jpg" />
+                <img class="responsive-img" src="img/home/novedades/posija-ch.jpg" />
             </div>
             <div class="overlay">
               <div align="right" class="circle">
@@ -298,11 +267,7 @@
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-<<<<<<< HEAD
                         data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
-=======
-                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
                       </span>
                   </div>
                 </div>
@@ -313,10 +278,11 @@
 <!--       <div class="grid-item grid-item--height3">
         <img class="responsive-img" src="img/home/grid/328_220.jpg" />
       </div> -->
+      <!-- img chica -->
       <div class="folio-item">
           <div class="grid-item grid-item--height3">
             <div class="folio-image">
-                <img class="responsive-img" src="img/home/grid/328_220.jpg" />
+                <img class="responsive-img" src="img/home/novedades/floreado-ch.jpg" />
             </div>
             <div class="overlay">
               <div align="right" class="circle">
@@ -329,11 +295,7 @@
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-<<<<<<< HEAD
                         data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
-=======
-                        data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
                       </span>
                   </div>
                 </div>
@@ -366,7 +328,6 @@
                    <div class="left-align col m6 s8">
                        <br>
                        <h5 id="calidadh5" class="titulo-guion">CALIDAD</h5>
-<<<<<<< HEAD
                    </div>
                </div>
                <div class="row">
@@ -378,12 +339,6 @@
                     </p>
                   </div>
                </div>
-=======
-                       <p id="calidadp" class="texto-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                       tempor incididunt ut labore et dolore magna aliqua. </p>
-                   </div>
-               </div>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
             </div>
 
             <div class="col s12 m6">             
@@ -394,7 +349,6 @@
                    <div class="left-align col m8 s8">
                        <br>
                        <h5 id="pasionh5" class="titulo-guion">PASION</h5>
-<<<<<<< HEAD
                        
                    </div>
                </div>
@@ -407,12 +361,6 @@
                       </p>
                   </div>
                </div>
-=======
-                       <p id="pasionp" class="texto-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                       tempor incididunt ut labore et dolore magna aliqua. </p>
-                   </div>
-               </div>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
             </div>
         </div>
         <br>
@@ -425,7 +373,6 @@
                    <div class="left-align col m6 s8">
                        <br>
                        <h5 id="honradezh5" class="titulo-guion">HONRADEZ</h5>
-<<<<<<< HEAD
                        
                    </div>
                </div>
@@ -438,12 +385,6 @@
                        </p>
                   </div>
                </div>
-=======
-                       <p id="honradezp" class="texto-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                       tempor incididunt ut labore et dolore magna aliqua. </p>
-                   </div>
-               </div>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
             </div>
 
             <div class="col s12 m6">             
@@ -454,7 +395,6 @@
                    <div class="left-align col m8 s8">
                        <br>
                        <h5 id="creatividadh5" class="titulo-guion">CREATIVIDAD</h5>
-<<<<<<< HEAD
                        
                    </div>
                </div>
@@ -467,12 +407,6 @@
                        </p>
                   </div>
                </div>
-=======
-                       <p id="creatividadp" class="texto-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                       tempor incididunt ut labore et dolore magna aliqua. </p>
-                   </div>
-               </div>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
             </div>
         </div>
         <br>
@@ -493,31 +427,20 @@
               <img src="img/home/comentarios/mujer.jpeg" alt="" class="circle-border responsive-img"> <!-- notice the "circle" class -->
             </div>
             <div class="col s12 m10">
-<<<<<<< HEAD
               <div align="left">
                 <img src="img/icono/“comilla izq@2x.png" width="50px" alt="">  
               </div>
               <div>
                 <span class="black-text texto-Regular flow-text">
-=======
-                <img src="img/icono/“comilla izq@2x.png" width="50px" alt="">              
-                  <span class="black-text texto-bold">
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     consequat.
-<<<<<<< HEAD
                 </span>
               </div> 
               <div align="right">
                 <img src="img/icono/“ comilla der@2x.png" width="50px" alt="">
               </div>   
-=======
-                  </span>
-                <img src="img/icono/“ comilla der@2x.png" width="50px" alt="">  
-              
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
             </div>
           </div>
         </div> 
@@ -550,60 +473,36 @@
              <div class="row">
               <div class="input-field col s12">
                 <input id="last_name" type="text" class="validate">
-<<<<<<< HEAD
                 <label for="last_name" class="Haettenschweiler">NOMBRE *</label>
-=======
-                <label for="last_name">NOMBRE *</label>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
                 <input id="last_name" type="text" class="validate">
-<<<<<<< HEAD
                 <label for="last_name" class="Haettenschweiler">CORREO *</label>
-=======
-                <label for="last_name">CORREO *</label>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
                 <input id="last_name" type="text" class="validate">
-<<<<<<< HEAD
                 <label for="last_name" class="Haettenschweiler">TELEFONO</label>
-=======
-                <label for="last_name">TELEFONO</label>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
                 <input id="last_name" type="text" class="validate">
-<<<<<<< HEAD
                 <label for="last_name" class="Haettenschweiler">ASUNTO *</label>
-=======
-                <label for="last_name">ASUNTO *</label>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
                 <textarea id="textarea1" class="materialize-textarea"></textarea>
-<<<<<<< HEAD
                 <label for="textarea1" class="Haettenschweiler">MENSAJE *</label>
-=======
-                <label for="textarea1">MENSAJE *</label>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
-<<<<<<< HEAD
                 <a class="waves-effect  light-blue lighten-3 btn" >ENVIAR</a>
-=======
-                <a class="waves-effect  light-blue lighten-3 btn">ENVIAR</a>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
               </div>
             </div>
            </form>
@@ -631,26 +530,17 @@
                   <img src="img/home/contacto/logoFooter.png" alt="">
                 </div>
                 <div class="col m6 s12">
-<<<<<<< HEAD
                   <h6 class="teal-text lighten-2-text Haettenschweiler">AYUDA</h6>
                   <ul>
                       <li><a class="grey-text darken-4-text foot-light" href="#!">Términos de uso</a></li>
                       <li><a class="grey-text darken-4-text foot-light" href="#!">Preguntas frecuentes</a></li>
                       <li><a class="grey-text darken-4-text foot-light" href="#!">¿QUIERES SER PROMOTOR?</a></li>
-=======
-                  <h6 class="teal-text lighten-2-text">AYUDA</h6>
-                  <ul>
-                      <li><a class="grey-text darken-4-text" href="#!">Terminos de uso</a></li>
-                      <li><a class="grey-text darken-4-text" href="#!">Preguntas frecuentes</a></li>
-                      <li><a class="grey-text darken-4-text" href="#!">¿QUIERES SER PROMOTOR?</a></li>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
                       
                   </ul>
                 </div>
               </div>
             </div>
             <div class="col l3 s12">
-<<<<<<< HEAD
                 <h6 class="teal-text lighten-2-text Haettenschweiler">CONTACTO</h6>
                 <ul class="address">
                     <li><a class="black-text foot-SemiBold" >Domicilio: </a><a class="grey-text darken-4-text foot-light">Centro #268</a></li>
@@ -662,19 +552,6 @@
                 <h6 class="teal-text lighten-2-text Haettenschweiler">QUIENES SOMOS</h6>
                 <ul>
                     <li><a class="grey-text darken-4-text foot-light" href="#!">En Bornita conectamos artesanos mexicanos con mercados de alto valor para beneficiar su economía y fomentar el comercio justo. Apoyamos a la preservación de las actividades artesanales de las comunidades con diseños innovadores que conservan la esencia de las técnicas tradicionales. </a></li>
-=======
-                <h6 class="teal-text lighten-2-text">CONTACTO</h6>
-                <ul class="address">
-                    <li><a class="black-text" >Domicilio: </a><a class="grey-text darken-4-text">Centro #268</a></li>
-                    <li><a class="black-text" >Telefono: </a><a class="grey-text darken-4-text">4433231867</a></li>
-                    <li><a class="black-text" >Correo: </a><a class="grey-text darken-4-text">ventas@bornitac.com</a></li>
-                </ul>
-            </div>
-            <div class="col l3 s12">
-                <h6 class="teal-text lighten-2-text">QUIENES SOMOS</h6>
-                <ul>
-                    <li><a class="grey-text darken-4-text" href="#!">Somos</a></li>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
                 </ul>
             </div>
             <div class="col l3 s12">
