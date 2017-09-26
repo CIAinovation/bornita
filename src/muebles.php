@@ -21,20 +21,19 @@
       <a href="index.php" class="brand-logo"><img src="../img/home/contacto/logoMenu.png" class="logo-menu" alt="Logo Bornita"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li class=""><a class="" href="../index.php">Inicia</a></li>
         <li class=""><a class="" href="../index.php">Nosotros</a></li>
         <li class="selected" ><a class="" href="joyeria.php">Joyeria</a></li>
         <li><a class="" href="muebles.php">Muebles</a></li>
-        <li><a class="" href="#">Hogar</a></li>
+        <li><a class="" href="#">Muebles</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
         <li><a href="mobile.html"><i class="material-icons">shopping_cart</i></a></li>
         <li><a class="waves-effect waves-light btn">Login</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a class="" href="../index.php"><b>Nosotros</b></a></li>
-        <li><a class="" href="collapsible.html">Novedades</a></li>
-        <li><a class="" href="joyeria.php">Joyeria</a></li>
-        <li><a class="" href="jewelry.php">Muebles</a></li>
+        <li class="selected"><a class="" href="joyeria.php">Joyeria</a></li>
+        <li><a class="" href="muebles.php">Muebles</a></li>
+        <li><a class="" href="#">Hohar</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
         <li><a class="" href="collapsible.html">Carrito</a></li>
         <li><a class="" href="collapsible.html">Login</a></li>
@@ -49,18 +48,10 @@
       <h5 class="selected titulo-guion"><a>Joyeria</a></h5>    
     </div>
     <div class="grid">
-      <?php 
-        $dir = '../img/joyas';
-        $fich = scandir($dir);
-
-        $lenght = count($fich);
-
-        for($i = 0; $i < $lenght ; $i++){
-       ?>
       <div class="folio-item">
           <div class="grid-item grid-item--height3">
             <div class="folio-image">
-                <img class="responsive-img" src=" ../img/joyas/<?= $fich[$i] ?>" />
+                <img class="responsive-img" src="../img/home/grid/1.jpg" />
             </div>
             <div class="overlay">
               <div align="right" class="circle">
@@ -72,7 +63,7 @@
                       <h5>Sala café</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -81,8 +72,7 @@
             </div>
           </div>
       </div>
-      <?php } ?>
-      <!--<div class="folio-item">
+      <div class="folio-item">
           <div class="grid-item grid-item--height3">
             <div class="folio-image">
                 <img class="responsive-img" src="../img/home/grid/2.jpg" />
@@ -97,7 +87,7 @@
                       <h5>Sala azul</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -121,7 +111,7 @@
                       <h5>Bisuteria</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -145,7 +135,7 @@
                       <h5>Sala café</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -169,7 +159,7 @@
                       <h5>Sala azul</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -193,7 +183,7 @@
                       <h5>Bisuteria</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -217,7 +207,7 @@
                       <h5>Sala café</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -241,7 +231,7 @@
                       <h5>Sala azul</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -265,7 +255,7 @@
                       <h5>Bisuteria</h5><br>
                   </div>
                   <div class="folio-overview">
-                      <span class="folio-link"><a class="folio-read-more boton" href="joyeria-detalle.php"
+                      <span class="folio-link"><a class="folio-read-more boton" href="muebles-detalle.php"
                         data-single_url="portfolio/portfolio-alianzas.html">Comprar</a>
                       </span>
                   </div>
@@ -273,7 +263,7 @@
               </div>
             </div>
           </div>
-      </div>-->
+      </div>
 
     </div>
 

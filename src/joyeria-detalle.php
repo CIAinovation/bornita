@@ -21,49 +21,28 @@
 <!--          Menu         -->
 <nav class="nav-extended white top-menu" id="top-menu">
     <div class="nav-wrapper " >
-<<<<<<< HEAD
-      <a href="#" class="brand-logo">Logo</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a class="" href="sass.html">Nosotros</a></li>
-        <li class="selected"><a class="" href="jewelry.php">Joyeria</a></li>
-        <li><a class="" href="collapsible.html">Hogar</a></li>
-        <li><a class="" href="collapsible.html">Tu diseño</a></li>
-        <li><a class="" href="collapsible.html">Unete</a></li>
-        <li><a class="" href="collapsible.html">Contáctanos</a></li>
-        <li><a href="mobile.html"><i class="material-icons">shopping_cart</i></a></li>
-        <li><a class="waves-effect waves-light btn">Login</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a class="" href="sass.html"><b>Nosotros</b></a></li>
-        <li><a class="" href="jewelry.php">Joyeria</a></li>
-        <li><a class="" href="collapsible.html">Hogar</a></li>
-        <li><a class="" href="collapsible.html">Tu diseño</a></li>
-        <li><a class="" href="collapsible.html">Unete</a></li>
-=======
       <a href="index.php" class="brand-logo"><img src="../img/home/contacto/logoMenu.png" class="logo-menu" alt="Logo Bornita"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li ><a class="" href="../index.php">Nosotros</a></li>
-        <li ><a class="" href="">Novedades</a></li>
-        <li><a class="" href="joyeria.php">Joyeria</a></li>
-        <li class="selected"><a class="" href="jewelry.php">Muebles</a></li>
+        <li class="selected"><a class="" href="joyeria.php">Joyeria</a></li>
+        <li><a class="" href="muebles.php">Muebles</a></li>
+        <li><a class="" href="#">Hogar</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
         <li><a href="mobile.html" class="a-nav"><i class="material-icons">shopping_cart</i></a></li>
         <li><a class="btn-login " href="vistas/login.php">Login</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a class="" href="../index.php"><b>Nosotros</b></a></li>
-        <li><a class="" href="">Novedades</a></li>
-        <li><a class="" href="joyeria.php">Joyeria</a></li>
-        <li><a class="" href="jewelry.php">Muebles</a></li>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
+        <li class="selected"><a class="" href="joyeria.php">Joyeria</a></li>
+        <li><a class="" href="muebles.php">Muebles</a></li>
+        <li><a class="" href="#">Hogar</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
         <li><a class="" href="collapsible.html">Carrito</a></li>
         <li><a class="" href="collapsible.html">Login</a></li>
       </ul>
     </div>
-  </nav>
+</nav>
 
 <!-- <div class="row">
   <div class="responsive-img col s8 m8 pull-m4" style="position:fixed !important">
@@ -74,10 +53,6 @@
   </div>
 </div> -->
 <div class="row">
-<<<<<<< HEAD
-      <div class="col s4 push-s8">
-          <h2 class="black-text">Ejemplo</h2>
-=======
       <div class="col s4 push-s8 responsive-img">
           <h2 class="black-text responsive-img" style="text-align: -webkit-center; font-size:8vw">Ejemplo</h2>
           <br><br>
@@ -110,20 +85,10 @@
               <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
             </ul>
           </div>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
       </div>
       <div class="col s8 pull-s4">
         <div id="sync1" class="owl-carousel owl-theme">
           <div class="item">
-<<<<<<< HEAD
-            <img src="../img/home/slider/heroimage@2xBornita.png"> <!-- random image -->
-          </div>
-          <div class="item">
-            <img src="http://lorempixel.com/1230/547/nature/7"> <!-- random image -->
-          </div>
-          <div class="item">
-            <img src="http://lorempixel.com/1230/547/nature/10"> <!-- random image -->
-=======
             <img src="../img/home/slider/heroimage@2xBornita.png" style="width: -webkit-fill-available; height: auto;"> <!-- random image -->
           </div>
           <div class="item">
@@ -131,21 +96,11 @@
           </div>
           <div class="item">
             <img src="http://lorempixel.com/1230/547/nature/10" style="width: -webkit-fill-available; height: auto;"> <!-- random image -->
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
           </div>
         </div>
 
         <div id="sync2" class="owl-carousel owl-theme">
           <div class="item">
-<<<<<<< HEAD
-            <img src="../img/home/slider/heroimage@2xBornita.png"> <!-- random image -->
-          </div>
-          <div class="item">
-            <img src="../img/home/slider/heroimage@2xBornita.png"> <!-- random image -->
-          </div>
-          <div class="item">
-            <img src="../img/home/slider/heroimage@2xBornita.png"> <!-- random image -->
-=======
             <img src="../img/home/slider/heroimage@2xBornita.png" style="width: -webkit-fill-available; height: auto;"> <!-- random image -->
           </div>
           <div class="item">
@@ -153,13 +108,10 @@
           </div>
           <div class="item">
             <img src="http://lorempixel.com/1230/547/nature/10" style="width: -webkit-fill-available; height: auto;"> <!-- random image -->
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
           </div>
         </div>
       </div>
 </div>
-<<<<<<< HEAD
-=======
 <footer class="page-footer grey lighten-4">
     <div class="container">
         <div class="row">
@@ -199,7 +151,6 @@
         </div>
     </div>
 </footer>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -210,13 +161,10 @@
   <script src="../materialize/js/main.js"></script>
   <script src="../materialize/js/masonry.pkgd.js"></script>
   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-<<<<<<< HEAD
-=======
   <script type="text/javascript">
     $(document).ready(function(){
     $('.collapsible').collapsible();
   });
   </script>
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
 </body>
 </html>
