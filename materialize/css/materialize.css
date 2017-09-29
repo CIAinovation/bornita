@@ -5270,11 +5270,7 @@ button.btn-floating {
 .fixed-action-btn {
   position: fixed;
   right: 23px;
-<<<<<<< HEAD
   bottom: 23px;
-=======
-  /*bottom: 23px;*/
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
   padding-top: 15px;
   margin-bottom: 0;
   z-index: 998;
@@ -6259,12 +6255,8 @@ textarea.materialize-textarea + label:after {
 }
 
 .input-field label {
-<<<<<<< HEAD
   /*color: #9e9e9e;*/
   color: #64CBDC;
-=======
-  color: #9e9e9e;
->>>>>>> b34c85e04d62a692f9f7d85a15006dc8efdcdab3
   position: absolute;
   top: 0.8rem;
   left: 0;
