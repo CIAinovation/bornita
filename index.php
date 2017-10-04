@@ -311,6 +311,19 @@
 </div>
 <!---     FIN Novedades      -->
 <br><br>
+<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <div class="row center">
+                <h2 class="white-text titulo-crea">Quiero ser Mayorista</h2>
+            </div>
+            <div class="row center">
+                <a class="btn-start">UNETE</a>
+            </div>
+        </div>
+    </div>
+    <div class="parallax"><img src="img/home/parallax/mayorista3-com.jpg" alt="Unsplashed background img 2"></div>
+</div>
 <div class="" >
     <div class="section light-blue lighten-2">
 
