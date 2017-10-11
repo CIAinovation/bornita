@@ -27,8 +27,8 @@
         <li><a class="" href="src/joyeria.php">Joyeria</a></li>
         <li><a class="" href="src/muebles.php">Hogar</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
-        <li><a href="mobile.html" class="a-nav"><i class="material-icons">shopping_cart</i></a></li>
-        <li><a class="btn-login " href="vistas/login.php">Login</a></li>
+<!--         <li><a href="mobile.html" class="a-nav"><i class="material-icons">shopping_cart</i></a></li>
+        <li><a class="btn-login " href="vistas/login.php">Login</a></li> -->
       </ul>
       <ul class="side-nav" id="mobile-demo">
         <li><a class="" href="/index.php"><b>Inicio</b></a></li>
@@ -36,8 +36,8 @@
         <li><a class="" href="src/joyeria.php">Joyeria</a></li>
         <li><a class="" href="src/muebles.php">Hogar</a></li>
         <li><a class="" href="collapsible.html">Contáctanos</a></li>
-        <li><a class="" href="collapsible.html">Carrito</a></li>
-        <li><a class="" href="vistas/login.php">Login</a></li>
+<!--         <li><a class="" href="collapsible.html">Carrito</a></li>
+        <li><a class="" href="vistas/login.php">Login</a></li> -->
       </ul>
     </div>
   </nav>
@@ -86,11 +86,11 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                      <h5>Juego de collar con aretes</h5><br>
+                      <h5>COLLAR</h5><br>
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-                        data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
+                        data-single_url="portfolio/portfolio-alianzas.html">Ver detalle</a>
                       </span>
                   </div>
                 </div>
@@ -111,11 +111,11 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                      <h5>Juego de collar con aretes</h5><br>
+                      <h5>COLLAR</h5><br>
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-                        data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
+                        data-single_url="portfolio/portfolio-alianzas.html">Ver detalle</a>
                       </span>
                   </div>
                 </div>
@@ -136,11 +136,11 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                      <h5>Juego de collar con aretes</h5><br>
+                      <h5>COLLAR</h5><br>
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-                        data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
+                        data-single_url="portfolio/portfolio-alianzas.html">Ver detalle</a>
                       </span>
                   </div>
                 </div>
@@ -161,11 +161,11 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                      <h5>Juego de collar con aretes</h5><br>
+                      <h5>ALHAJERO</h5><br>
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-                        data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
+                        data-single_url="portfolio/portfolio-alianzas.html">Ver detalle</a>
                       </span>
                   </div>
                 </div>
@@ -186,11 +186,11 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                      <h5>Juego de collar con aretes</h5><br>
+                      <h5>ALHAJERO</h5><br>
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-                        data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
+                        data-single_url="portfolio/portfolio-alianzas.html">Ver detalle</a>
                       </span>
                   </div>
                 </div>
@@ -211,11 +211,11 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                      <h5>Juego de collar con aretes</h5><br>
+                      <h5>COLLAR</h5><br>
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-                        data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
+                        data-single_url="portfolio/portfolio-alianzas.html">Ver detalle</a>
                       </span>
                   </div>
                 </div>
@@ -236,11 +236,11 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                      <h5>Juego de collar con aretes</h5><br>
+                      <h5>ARETES</h5><br>
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-                        data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
+                        data-single_url="portfolio/portfolio-alianzas.html">Ver detalle</a>
                       </span>
                   </div>
                 </div>
@@ -261,11 +261,11 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                      <h5>Juego de collar con aretes</h5><br>
+                      <h5>ALHAJERO</h5><br>
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-                        data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
+                        data-single_url="portfolio/portfolio-alianzas.html">Ver detalle</a>
                       </span>
                   </div>
                 </div>
@@ -289,11 +289,11 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                      <h5>Juego de collar con aretes</h5><br>
+                      <h5>DIJE</h5><br>
                   </div>
                   <div class="folio-overview">
                       <span class="folio-link"><a class="folio-read-more boton" href="#"
-                        data-single_url="portfolio/portfolio-alianzas.html">Añadir al Carrito</a>
+                        data-single_url="portfolio/portfolio-alianzas.html">Ver detalle</a>
                       </span>
                   </div>
                 </div>
@@ -339,14 +339,14 @@
                    </div>
                    <div class="left-align col m6 s8">
                        <br>
-                       <h5 id="calidadh5" class="titulo-guion">CALIDAD</h5>
+                       <h5 id="calidadh5" class="titulo-guion">CUIDAMOS LOS DETALLES</h5>
                    </div>
                </div>
                <div class="row">
                   <div class="col m3"><p></p></div>
                   <div class="col m9">
                     <p id="calidadp" class="texto-light flow-text">
-                      CUIDAMOS LOS DETALLES:<br><br>
+                      <!-- CUIDAMOS LOS DETALLES:<br><br> -->
                       En cada una de las piezas que elaboramos cuidamos los detalles para entregar piezas únicas e irrepetibles. 
                     </p>
                   </div>
@@ -360,7 +360,7 @@
                    </div>
                    <div class="left-align col m8 s8">
                        <br>
-                       <h5 id="pasionh5" class="titulo-guion">PASION</h5>
+                       <h5 id="pasionh5" class="titulo-guion">AMAMOS LO QUE HACEMOS</h5>
                        
                    </div>
                </div>
@@ -368,7 +368,7 @@
                   <div class="col m3"><p></p></div>
                   <div class="col m9">
                     <p id="pasionp" class="texto-light flow-text">
-                        AMAMOS LO QUE HACEMOS: <br><br>
+                        <!-- AMAMOS LO QUE HACEMOS: <br><br> -->
                         A través de nuestras manos entregamos el corazón en cada pieza que elaboramos.
                       </p>
                   </div>
@@ -384,7 +384,7 @@
                    </div>
                    <div class="left-align col m6 s8">
                        <br>
-                       <h5 id="honradezh5" class="titulo-guion">HONRADEZ</h5>
+                       <h5 id="honradezh5" class="titulo-guion">SIEMPRE TRANSPARENTES</h5>
                        
                    </div>
                </div>
@@ -392,7 +392,7 @@
                   <div class="col m3"><p></p></div>
                   <div class="col m9">
                     <p id="honradezp" class="texto-light flow-text">
-                        SIEMPRE TRANSPARENTES: <br><br>
+                        <!-- SIEMPRE TRANSPARENTES: <br><br> -->
                         Nos interesa tu confianza, seremos siempre honestos contigo. 
                        </p>
                   </div>
@@ -406,7 +406,7 @@
                    </div>
                    <div class="left-align col m8 s8">
                        <br>
-                       <h5 id="creatividadh5" class="titulo-guion">CREATIVIDAD</h5>
+                       <h5 id="creatividadh5" class="titulo-guion">REINVENTAMOS</h5>
                        
                    </div>
                </div>
@@ -414,7 +414,7 @@
                   <div class="col m3"><p></p></div>
                   <div class="col m9">
                    <p id="creatividadp" class="texto-light flow-text">
-                        REINVENTAMOS: <br><br>
+                        <!-- REINVENTAMOS: <br><br> -->
                         Incorporamos en nuestras piezas las tendencias del diseño. 
                        </p>
                   </div>
@@ -467,7 +467,7 @@
                 <h2 class="white-text titulo-crea">Crea tu propio diseño</h2>
             </div>
             <div class="row center">
-                <a class="btn-start">PERSONALIZA</a>
+                <a class="btn-start" href="vistas/diseno.php">EMPIEZA AQUI</a>
             </div>
         </div>
     </div>
