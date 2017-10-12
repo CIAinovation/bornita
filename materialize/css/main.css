@@ -321,6 +321,14 @@ display: inline-block
   color: #fff;
 }
 
+
+/*************************
+******** Valores CSS*****
+**************************/
+.slider-sombra{
+  /*text-shadow: #fff 0.1em 0.1em 0.1em;*/
+}
+
 /*************************
 ******** Fuentes Home *****
 **************************/
@@ -388,7 +396,7 @@ display: inline-block
     font-family: 'Raleway-Bold', sans-serif;
     font-weight: bold; 
     letter-spacing: 8px;
-    font-size: 15px;
+    font-size: 13px;
   }
   .titulo-crea{
     font-family: 'Montserrat-SemiBold',sans-serif; 
@@ -414,7 +422,7 @@ display: inline-block
     font-family: 'Raleway-Bold', sans-serif;
     font-weight: bold; 
     letter-spacing: 8px;
-    font-size: 20px;
+    font-size: 15px;
   }
   .titulo-crea{
     font-family: 'Montserrat-SemiBold',sans-serif; 
@@ -444,7 +452,7 @@ display: inline-block
     font-family: 'Raleway-Bold', sans-serif;
     font-weight: bold; 
     letter-spacing: 8px;
-    font-size: 30px;
+    font-size: 25px;
   }
   .titulo-crea{
     font-family: 'Montserrat-SemiBold',sans-serif; 
@@ -474,7 +482,7 @@ display: inline-block
     font-family: 'Raleway-Bold', sans-serif;
     font-weight: bold; 
     letter-spacing: 8px;
-    font-size: 30px;
+    font-size: 25px;
   }
   .titulo-crea{
     font-family: 'Montserrat-SemiBold',sans-serif; 

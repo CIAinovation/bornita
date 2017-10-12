@@ -48,19 +48,19 @@
       <li>
         <img src="img/home/slider/heroimage@2xBornita-com.png"> <!-- random image -->
         <div class="caption " align="left" >
-          <h1 class="titulo-slider">Joyeria <br>Artesanal</h1>
+          <h1 class="titulo-slider slider-sombra">Joyeria <br>Artesanal</h1>
         </div>
       </li>
       <li>
-        <img src="http://lorempixel.com/1230/547/nature/7"> <!-- random image -->
+        <img src="img/home/slider/slider2.png"> <!-- random image -->
         <div class="caption left-align">
-           <h1 class="titulo-slider">Joyeria <br>Artesanal</h1>
+           <h1 class="titulo-slider slider-sombra">Joyeria <br>Artesanal</h1>
         </div>
       </li>
       <li>
-        <img src="http://lorempixel.com/1230/547/nature/10"> <!-- random image -->
+        <img src="img/home/slider/slider3.png"> <!-- random image -->
         <div class="caption left-align">
-           <h1 class="titulo-slider">Joyeria <br>Artesanal</h1>
+           <h1 class="titulo-slider slider-sombra">Joyeria <br>Artesanal</h1>
         </div>
       </li>
     </ul>
@@ -467,7 +467,7 @@
                 <h2 class="white-text titulo-crea">Crea tu propio diseño</h2>
             </div>
             <div class="row center">
-                <a class="btn-start" href="vistas/diseno.php">EMPIEZA AQUI</a>
+                <!-- <a class="btn-start" href="vistas/diseno.php">EMPIEZA AQUI</a> -->
             </div>
         </div>
     </div>
@@ -557,7 +557,7 @@
                 <ul class="address">
                     <li><a class="black-text foot-SemiBold" >Domicilio: </a><a class="grey-text darken-4-text foot-light">Centro #268</a></li>
                     <li><a class="black-text foot-SemiBold" >Telefono: </a><a class="grey-text darken-4-text foot-light">4433231867</a></li>
-                    <li><a class="black-text foot-SemiBold" >Correo: </a><a class="grey-text darken-4-text foot-light">ventas@bornitac.com</a></li>
+                    <li><a class="black-text foot-SemiBold" >Correo: </a><a class="grey-text darken-4-text foot-light">ventas@bornita.com</a></li>
                 </ul>
             </div>
             <div class="col l3 s12">
